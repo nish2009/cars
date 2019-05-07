@@ -175,13 +175,13 @@ autocomplete(document.getElementById("myInput"), pages);
 document.getElementById('search-button').addEventListener('click', () => {
 	var pageWanted = document.getElementById('myInput').value;
 	if(pageWanted == "top three fastest cars"){
-		location.href.replace("index.html")
+		location.href = "index.html"
 	} else if(pageWanted == "top five popular cars"){
-		location.href.replace("hotdogs.html")
+		location.href="hotdogs.html"
 	}  else if(pageWanted == "top ten rarest cars"){
-		location.href.replace("bhb.html")
+		location.href="bhb.html"
 	}  else if(pageWanted == "most expensive cars"){
-		location.href.replace(" to.html")
+		location.href=" to.html"
 	}
 
 });
