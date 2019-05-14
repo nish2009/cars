@@ -7,11 +7,18 @@ top :40px ;
 left:180px ;
 z-index: -1; 
 } 
+
 #hatchback {
     width: 750px;
     position: absolute;
     left: 180px;
 }
+#BMW { 
+    width: 750px;
+    position: absolute;
+    left: 180px;
+}
+
 #jpg {
     width: 750px;
     position: absolute;
