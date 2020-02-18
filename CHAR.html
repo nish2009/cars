@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-
+<link rel="import" href="menu.html">
     
 
  <link rel="stylesheet" href="style.css">
@@ -21,6 +21,13 @@
 <h1>  carbro</h1>
 </a>
 
+<div id='menu'>
+</div>
+
+<script>
+  var content=document.querySelector('link[rel="import"]').import;
+  document.getElementById("menu").innerHTML = content.getElementById("menu").innerHTML;
+</script>
 
 <h1> 2019: 10 BEST TRACK CARS OF THE YEAR </h1>
 <ol>

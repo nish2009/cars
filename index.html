@@ -2,7 +2,7 @@
 <html>
   <head>
 
-  	
+  	<link rel="import" href="menu.html">
 
  <link rel="stylesheet" href="style.css">
     <title> puli cars </title>
@@ -20,7 +20,13 @@
 <a href="index.html">
 <h1>  carbro</h1>
 </a>
+<div id='menu'>
+</div>
 
+<script>
+  var content=document.querySelector('link[rel="import"]').import;
+  document.getElementById("menu").innerHTML = content.getElementById("menu").innerHTML;
+</script>
 
 <h1> Top three fastest cars in the world </h1>
 <ol>
@@ -31,45 +37,8 @@
 </ol>
 
 
-
-<a href="to.html">
-<img border="0" alt="W3Schools" src="chicken/the.jpg" width="100" height="100">
-</a>
-
-  <a href="bhb.html">
-    <img src="chicken/suckerface.jpg" width="100" height="100">
-  </a>
-  <a href="kid.html">
-    <img border="0" alt="atom" src="chicken/pi.jpg" width="100" height="100">
-  </a>
-
-  
-
-
-<a href="my name.html">
-    <img border="0" alt="atom" src="chicken/omg.jpg" width="100" height="100">
-
-
-
-
-</a>
-  <a href="you!.html">
-    <img border="0" alt="atom" src="chicken/nishchay.jpg" width="100" height="100">
-  </a>
-
-
-
- 	  <a href="hotdogs.html">
-
- 	<img border="0" alt="chickenleg" src="chicken/car-button.jpg" width="100" height="100">
- </a>
-
-<a href="CHAR.html">
-	<img border="0" alt="atom" src="chicken/atom.jpg" width="100" height="100">
-
-
-
-<img  id="hennesy" src="chicken/supercoffee.png" alt="MrChicken">
+<a href="index.html">
+<img  id="hennesy" src="chicken/superCoffee.png" alt="MrChicken">
 </a>
 
 <!--Fake Search-->

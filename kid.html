@@ -2,7 +2,8 @@
 <html>
   <head>
 
-    
+    <link rel="import" href="menu.html">
+
 
  <link rel="stylesheet" href="style.css">
     <title> puli cars </title>
@@ -20,7 +21,12 @@
 <a href="index.html">
 <h1>  carbro</h1>
 </a>
-
+<div id='menu'>
+</div>
+<script>
+  var content=document.querySelector('link[rel="import"]').import;
+  document.getElementById("menu").innerHTML = content.getElementById("menu").innerHTML;
+</script>
 
 <h1> Newest car models </h1>
 <ol>
